@@ -1,11 +1,4 @@
 # Programming Assignment 5: Maxwell's Demon
-## COSC 150 - Advanced Programming
-
-- [Goals](#goals)
-- [Description](#description)
-- [Specification and requirements](#specification-and-requirements)
-- [Provided files](#provided-files)
-- [Grading rubric](#grading-rubric)
 
 ## Goals
 
@@ -90,44 +83,3 @@ These diagrams will be hand-graded by me.
 You will also create the following "code-based" files to submit (by committing them to your repository).
 - `Instructions.txt`, a text file describing how to play your game (what class contains main() to start, info on any non-standard features, etc.)
 - All Java source code files needed to compile and play your game. There is no required name for these files; your `Instructions.txt` will tell me how to properly begin your game.
-
-This part of the project will also be hand-graded by me (Travis is bad at games)     
-
-## Provided files
-
-The following files related to project logistics are present in your repository:
-- `README.md` which provides this specification.
-- `.gitignore` which specifies files git should NOT track.
-
-I have also provided a reference document, `kinematics_notes.pdf` that gives a kinematic description of simple particle dynamics as well as a way of converting particle speeds into horiziontal/vertical components of velocity based on travel direction (i.e., angle). You may reference this document as needed (based on how long it's been since you took a physics class).
-
-## Grading rubric
-
-Your score for this assignment is determined according to the following rubric. *Note: none of these will be auto-graded*
-
-Amazing Feat | Points Awarded 
----          | :---:          
-**Submission and Source**
-Your repository contains some Java source code.                      | 10 |
-Your repository contains an `Instructions.txt` explaning how to compile and run your game (even if they are short).                                      | 10 |
-Your submitted Java source code compiles.                            | 10 |
-Your source code uses consistent style, reasonable method/variable names, and is documented clearly.                                                  | 20 |
-**GUI Implementation**
-Running your program creates some Swing object (e.g., a JFrame)      |  5 |
-Your GUI includes a "play area" divided in half by a wall.           | 10 |
-Your GUI includes two "temperature displays"                         | 10 |
-Your GUI includes two buttons - one to reset the game, and one to add more particles to the game.                                                        | 10 |
-Your GUI layout is deliberate and structured in a sensible way (clear button labels, temperatures clearly associated with their side, etc.)              | 10 |
-**Event-Driven Programming**
-Clicking the "Reset" button returns the game to an initial state (as it was when I started the game).                                                   | 10 |
-Clicking the "Add" button adds four total particles (one hot and one cold on each side of the play area).                                              | 10 |
-Pressing the mouse button causes the door to (visually) open and close appropriately.                                                       | 10 |
-The temperature readouts update whenever the composition of balls on one side of the game change (balls appear/enter/leave or the game is reset). The temperature of a "hot" side is larger than a "cold" side.                             | 10 |
-**Animation and Physics**
-Balls of different colors appear in your game.                       |  5 |
-The balls "animate" -- they move over time without player input.     |  5 |
-The average red ball moves faster than the average blue ball.        |  5 |
-The balls "bounce" off of the edges of the game frame; they don't leave the window or disappear behind other UI elements.                               | 15 |
-The balls correctly bounce off the center wall (apart from the door).| 10 |
-The balls interact with the door correctly; they bounce off when it is closed and pass through when it is open.                                        | 10 |
-**Total points**                                                    | 185 |  
